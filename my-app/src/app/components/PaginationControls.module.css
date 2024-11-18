@@ -1,0 +1,14 @@
+
+
+.paginationContainer {
+    @apply flex items-center space-x-4 mt-6;
+  }
+  
+  .button {
+    @apply px-4 py-2 bg-gray-400 text-white rounded-md;
+  }
+  
+  .pageInfo {
+    @apply text-lg font-semibold;
+  }
+  

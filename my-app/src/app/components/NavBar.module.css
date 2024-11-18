@@ -1,0 +1,10 @@
+
+
+.header {
+    @apply bg-purple-600 text-white py-4 shadow-md;
+  }
+  
+  .title {
+    @apply text-2xl font-bold;
+  }
+  

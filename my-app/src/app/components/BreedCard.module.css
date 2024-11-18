@@ -1,0 +1,30 @@
+
+
+.cardContainer {
+    @apply relative bg-white rounded-lg overflow-hidden shadow-lg w-full h-[350px];
+  }
+  
+  .cardImage {
+    @apply w-full h-full object-cover;
+  }
+  
+  .infoOverlay {
+    @apply absolute bottom-0 left-0 right-0 bg-gray-900 bg-opacity-70 p-4 text-white transition-all duration-300 transform h-12;
+  }
+  
+  .breedName {
+    @apply text-lg font-semibold;
+  }
+  
+  .hoverDetails {
+    @apply hidden mt-2;
+  }
+  
+  .originText, .lifeSpanText {
+    @apply text-sm;
+  }
+  
+  .detailsButton {
+    @apply mt-4 w-full py-2 bg-purple-500 text-white font-bold rounded-md hover:bg-purple-600 transition-colors duration-200;
+  }
+  
